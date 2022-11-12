@@ -1,0 +1,59 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"SignksMC"
+		]
+	},
+	"header": {
+		"name": "ESFYS - Set Home v4",
+		"description": "Un Complemento para §lMinecraft Bedrock 1.19.30§r Este agrega un sistema de home, BY: SignksMC",
+		"min_engine_version": [
+			1,
+			19,
+			40
+		],
+		"uuid": "fe481bea-9bae-4eba-baa3-f1608199c53e",
+		"version": [
+			4,
+			3,
+			2
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "8f1df665-0e03-4a30-b791-29629244f097",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "3cd47bc8-f7cb-44a2-a9ae-7ad54b527435",
+			"entry": "scripts/xtar.js",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.0.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-gametest",
+			"version": "1.0.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "1.0.0-beta"
+		}
+	]
+}
