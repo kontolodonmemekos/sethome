@@ -107,8 +107,8 @@ ${PHx} <${CmdA3}> §8Memindahkan lokasi sethome kamu ke lokasi baru.§r
 ${PHx} <${CmdA11}> §8Mengubah spawn point ketika mati ke sethome kamu.§r
 ${PHx} <${CmdA5}> §8Mengteleportasi ke sethome kamu.§r
 ${PHx} <${CmdA10}> §8Menampilkan daftar sethome kamu.§r
-${PHx} <${CmdA13}> §8Menampilkan kordinat sethome kamu.§r
--------------------------------------------------------------------
+${PHx} <${CmdA13}> §8Menampilkan kordinat sethome kamu.§r 
+------------------------------------------------------------------
 ${PHx} <${CmdA16}> §8Menghapus seluruh sethome kamu.§r
 `
 ///Jangan sentuh
