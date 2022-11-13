@@ -1,7 +1,7 @@
 /// => {import} <= \\\
 import { Player, world, Location, system } from '@minecraft/server'
 import { PHx } from './custom/conf/xtar.js'
-import { ListaCMD, CmdA1, CmdA2, CmdA3, CmdA4, CmdA5, CmdA6, CmdA7, CmdA8, CmdA9, CmdA10, CmdA11, CmdA12, CmdA13, CmdA14, CmdA15, CmdA16, xTartHelpMessage } from './custom/xtar.js'
+import { ListCMD, CmdA1, CmdA2, CmdA3, CmdA4, CmdA5, CmdA6, CmdA7, CmdA8, CmdA9, CmdA10, CmdA11, CmdA12, CmdA13, CmdA14, CmdA15, CmdA16, AosHelpMessage } from './custom/xtar.js'
 
 /// => {Data} <= \\\
 let reply = []
@@ -14,7 +14,7 @@ function sHome(msg) {
     let player = srcPlayer.name ?? srcPlayer.nameTag
     msg.cancel = true
 
-    if (ListaCMD.includes(command) && args.length <= 0) {
+    if (ListCMD.includes(command) && args.length <= 0) {
         runCmd(`tellraw "${player}" { "rawtext": [ { "text": "§cWajib memasukkan nama" } ] }`, srcPlayer.dimension)
         return
     }
@@ -54,7 +54,7 @@ function sHome(msg) {
 
     switch (command) {
         case `help`:
-            runCmd(`tellraw "${player}" { "rawtext": [ { "text": "${xTartHelpMessage}" } ] }`, world.getDimension(playerDimension))
+            runCmd(`tellraw "${player}" { "rawtext": [ { "text": "${AosHelpMessage}" } ] }`, world.getDimension(playerDimension))
             break
         case `${CmdA1}`:
         case `${CmdA2}`:
