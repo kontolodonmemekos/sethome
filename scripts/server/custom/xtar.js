@@ -102,11 +102,11 @@ const CmdA16 = 'alldelete'
 // const xTartHelpMessage = `§6§lSistem Beranda :§r Menampilkan Perintah Bantuan (${PHx})\n${PHx} 7<${CmdA3}> §oUbah/Pindahkan lokasi rumah Anda§r\n${PHx}  <${ CmdA2}> §8Menetapkan rumah§r\n${PHx} <${CmdA5}> §8Mengirimkan rumah kepada Anda§r\n${PHx} <${CmdA8 }> § 8Hapus rumah Anda§r\n${PHx} <${CmdA13}> §8Lokasi rumah Anda§r\n${PHx} <${CmdA11}> § 8Tetapkan titik spawn di rumah Anda§r\n${PHx} <${CmdA10}> §8Tampilkan daftar rumah yang dibuat§r\n${PHx} <${CmdA16}> §8Hapus semua rumah pemain r\nCatatan:§7 Saat memasukkan nama dengan spasi, ganti dengan §l_§r`
 const AosHelpMessage = `§6§Daftar Perintah :§r
 ${PHx} <${CmdA2}> §8Membuat sethome.§r
-${PHx} <${CmdA3}> §8Memindahkan lokasi sethome kamu ke lokasi baru.§r
-${PHx} <${CmdA5}> §8Mengteleportasi ke sethome kamu.§r
 ${PHx} <${CmdA8}> §8Menghapus sethome kamu.§r
-${PHx} <${CmdA10}> §8Menampilkan daftar sethome kamu.§r
+${PHx} <${CmdA3}> §8Memindahkan lokasi sethome kamu ke lokasi baru.§r
 ${PHx} <${CmdA11}> §8Mengubah spawn point ketika mati ke sethome kamu.§r
+${PHx} <${CmdA5}> §8Mengteleportasi ke sethome kamu.§r
+${PHx} <${CmdA10}> §8Menampilkan daftar sethome kamu.§r
 ${PHx} <${CmdA13}> §8Menampilkan kordinat sethome kamu.§r
 -------------------------------------------------------------------
 ${PHx} <${CmdA16}> §8Menghapus seluruh sethome kamu.§r
